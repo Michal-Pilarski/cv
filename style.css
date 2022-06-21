@@ -1,0 +1,183 @@
+/*Odsuwanie wewnątrz - PADDING*/
+/*Odsuwanie od zewnętrznych elementów - MARGIN*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+
+.wrapper{
+    display: flex; /*ustawia elementy obok siebie*/
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center; /*wyśrodkowanie (potrzebny margin)*/
+    background-color: #ffffff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); /*cień*/
+}
+
+aside {
+    width: 370px;
+    background-color: #1e2939;
+}
+
+.cv-photo {
+    margin-top: 25px;
+}
+
+.header-secondary {
+    color: white;
+}
+
+.contact-links {
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-secondary {
+    color: #fb6d3a;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0; /*margines dla diva podwoił margines dla listy*/
+    padding-left: 0;
+    list-style-position: inside; /*sam padding i margin nie spełniły oczekiwań*/
+}
+
+.list-secondary-item{
+    color: white;
+}
+
+.contact-block{
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.techskills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.softskills-block {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+main {
+    padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.job-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.projects-description{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.list-primary {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.list-primary-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+
+.header-primary{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+
+.job-position{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.highlight {
+    color: #fb6d3a;
+}
+
+.job-date {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #a8a8a8;
+}
+
+.job-list {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+    color: #595959;
+}
+
+.header-national {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 11px;
+}
+
+h4 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12px;
+}
